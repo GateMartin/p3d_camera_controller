@@ -1,7 +1,7 @@
 # Panda3D Camera Controller
-A simple camera controller for the Panda3D engine.</br>
-It allows you to move with ZQDS (that's because I'm french ;)) keys and to look around or move with the mouse.</br></br>
-You can easily change the default keys in order to setup a WASD configuration (How to just after the section right below).
+A simple camera controller for the <a href="https://www.panda3d.org">Panda3D engine</a>.</br>
+It allows you to move with ZQDS (that's because I'm French ;D) keys and to look around or move with the mouse.</br></br>
+You can easily change the default keys in order to setup a WASD configuration (How to just after the "Example of use" section).
 
 ## Example of use
 ```python
