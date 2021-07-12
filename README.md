@@ -1,6 +1,7 @@
 # Panda3D Camera Controller
 A simple camera controller for the Panda3D engine.</br>
-It allows you to move with WASD keys and to look around or move with the mouse.
+It allows you to move with ZQDS (that's because I'm french ;)) keys and to look around or move with the mouse.</br></br>
+You can easily change the default keys in order to setup a WASD configuration (How to just after the section right below).
 
 ## Example of use
 ```python
@@ -24,3 +25,15 @@ class MyApp(ShowBase):
 if __name__ in '__main__':
   MyApp().run()
 ```
+## WASD Setup
+In order to change the default keyboard controls to a WASD confguration, you need to pass this dictionary inside the setup method of the controller :
+```python
+cam_controller.setup(keys={
+            'w':"forward",
+            's':"backward",
+            'a':"left",
+            'd':"right",
+            'space':"up",
+            'lshift':"down"
+        })
+ ```
