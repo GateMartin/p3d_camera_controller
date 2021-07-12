@@ -25,7 +25,7 @@ class MyApp(ShowBase):
 if __name__ in '__main__':
   MyApp().run()
 ```
-## WASD Setup
+## WASD Setup / Change controls
 In order to change the default keyboard controls to a WASD confguration, you need to pass this dictionary inside the setup method of the controller :
 ```python
 cam_controller.setup(keys={
