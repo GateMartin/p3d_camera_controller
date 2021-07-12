@@ -15,7 +15,7 @@ class MyApp(ShowBase):
         cube.reparentTo(self.render)
         
         # Setting up the camera controller
-        cam_controller = CameraControllerBehaviour
+        cam_controller = CameraControllerBehaviour(self.camera) # Apply the behaviour to the showbase camera object
         cam_controller.setVelocity(0.2)
         cam_controller.setMouseSensivity(0.1)
         
