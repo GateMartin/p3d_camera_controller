@@ -37,4 +37,4 @@ cam_controller.setup(keys={
             'lshift':"down"
         })
  ```
- Note: You can put whatever key you want as long as they are supported by Panda3D (see <a href="https://docs.panda3d.org/1.10/python/programming/hardware-support/keyboard-support"></a>).
+ Note: You can put whatever key you want as long as they are supported by Panda3D (see <a href="https://docs.panda3d.org/1.10/python/programming/hardware-support/keyboard-support">Keyboard Support</a> for more information).
