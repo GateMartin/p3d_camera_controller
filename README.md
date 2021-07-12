@@ -3,7 +3,7 @@ A simple camera controller for the Panda3D engine.</br>
 It allows you to move with WASD keys and to look around or move with the mouse.
 
 ## Example of use
-'''python
+```python
 from direct.showbase.ShowBase import ShowBase
 from camera import CameraControllerBehaviour
 
@@ -23,5 +23,4 @@ class MyApp(ShowBase):
  
 if __name__ in '__main__':
   MyApp().run()
-
-'''
+```
